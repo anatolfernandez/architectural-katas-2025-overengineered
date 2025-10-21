@@ -6,3 +6,6 @@
 - [Fernandez, Anatol](https://www.linkedin.com/in/anatol-fernandez/)
 - [Syndikus, Max](https://www.linkedin.com/in/max-syndikus-58913a114/)
 
+## Architecture Decisions
+
+All architecture decisions are captured with [architecture decision records](adr/README.md).

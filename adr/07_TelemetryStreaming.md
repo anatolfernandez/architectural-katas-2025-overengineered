@@ -1,0 +1,11 @@
+
+# ADR-00 Title
+
+## Status
+
+## Context
+
+## Decision
+
+## Consequences
+
