@@ -1,4 +1,4 @@
-# ADR-01 Customer Facing Application
+# ADR-05 Authentication
 
 ## Status
 Accepted
@@ -9,6 +9,7 @@ Our application deals with physical asset management and payments. We need to fi
 ## Options Considered
 - phone number verification
 - ID verification
+- Driver license verification
 - email-based account registration
 
 ## Decision Drivers
@@ -17,6 +18,7 @@ Our application deals with physical asset management and payments. We need to fi
 
 ## Decision
 Support oAuth-based sign-up and login with a variety oAuth providers, e.g. Google, Apple, Facebook. Require a phone number to utilize a physical device 2-factor authentication.
+Limited functionality without driving license verification - only able to book and use scooters and bicycles. 
 
 ## Consequences
 
