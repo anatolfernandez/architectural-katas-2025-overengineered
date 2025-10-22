@@ -23,19 +23,19 @@ All architecture decisions are captured with [Architecture Decision Records](adr
 ### General System Design
 
 - [ADR-01: Customer Facing Application](01_CustomerFacingApplication.md)
-- [ADR-02: Third-Party Services](02_ThirdPartyServices.md)
-- [ADR-03: Legacy Hardware](03_LegacyHardware.md)
-- [ADR-04: Backend Services](04_BackendServices.md)
-- [ADR-05: Authentication](05_Authentication.md)
-- [ADR-06: Database Choice](06_DatabaseChoice.md)
-- [ADR-07: Telemetry Streaming](07_TelemetryStreaming.md)
-- [ADR-08: Booking Consistency](08_BookingConsistency.md)
-- [ADR-09: Pricing Availability](09_PricingAvailability.md)
+- [ADR-02: Third-Party Services](./adr/02_ThirdPartyServices.md)
+- [ADR-03: Legacy Hardware](./adr/03_LegacyHardware.md)
+- [ADR-04: Backend Services](./adr/04_BackendServices.md)
+- [ADR-05: Authentication](./adr/05_Authentication.md)
+- [ADR-06: Database Choice](./adr/06_DatabaseChoice.md)
+- [ADR-07: Telemetry Streaming](./adr/07_TelemetryStreaming.md)
+- [ADR-08: Booking Consistency](./adr/08_BookingConsistency.md)
+- [ADR-09: Pricing Availability](./adr/09_PricingAvailability.md)
 
 ### AI/ML Subsystem
 
-- [ADR-10: Data Collection](10_DataCollection.md)
-- [ADR-11: Data Serving](11_DataServing.md)
+- [ADR-10: Data Collection](./adr/10_DataCollection.md)
+- [ADR-11: Data Serving](./adr/11_DataServing.md)
 
 
 ## Architecture Diagram
