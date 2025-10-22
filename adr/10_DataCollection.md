@@ -38,4 +38,4 @@ Establish an analytical platform capturing all incoming data into a data lakehou
 - at any point of time a new AI use-case can be added without the need to re-ingest the new microservice with all the needed data
 
 ### Negative
-- 
+- single point of failure
