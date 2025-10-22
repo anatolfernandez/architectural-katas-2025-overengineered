@@ -5,6 +5,10 @@
 
 ## Context
 
+## Options Considered
+
+## Decision Drivers
+
 ## Decision
 
 ## Consequences

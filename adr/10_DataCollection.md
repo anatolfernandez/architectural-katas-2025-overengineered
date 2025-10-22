@@ -14,11 +14,15 @@ Microservice architecture defines bounded contexts within single components. It 
 - event information
 - news for the city
 
+## Options Considered
+
+## Decision Drivers
+
 ## Decision
 Establish an analytical platform capturing all incoming data into a data lakehouse solution. Our solution implements medallion architecture to strictly separate layers of responsibility:
-- bronze layer to store all incoming data, so that no single data point is missed
-- silver layer to clean the data and prepare it for consumption
-- golden layer with use-case specific tables, where each schema is designated to a specific microservice
+- Bronze layer to store all incoming data, so that no single data point is missed
+- Silver layer to clean the data and prepare it for consumption
+- Gold layer with use-case specific tables, where each schema is designated to a specific microservice
 
 ## Consequences
 We build a common data management system, which allows decoupling of data management from services, but at the same time allows flexible data access, model creation and evaluation based on the specific use-case. It also means that at any point of time a new AI use-case can be added without the need to re-ingest the new microservice with all the needed data and we are able to reduce the data layer maintenance overload.
