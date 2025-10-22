@@ -20,7 +20,7 @@ We identified functional requirements and listed them on the [Functional Require
 
 All architecture decisions are captured with [Architecture Decision Records](adr/README.md).
 
-### General System
+### General System Design
 
 - [ADR-01: Customer Facing Application](01_CustomerFacingApplication.md)
 - [ADR-02: Third-Party Services](02_ThirdPartyServices.md)
@@ -32,7 +32,7 @@ All architecture decisions are captured with [Architecture Decision Records](adr
 - [ADR-08: Booking Consistency](08_BookingConsistency.md)
 - [ADR-09: Pricing Availability](09_PricingAvailability.md)
 
-### AI/ML System
+### AI/ML Subsystem
 
 - [ADR-10: Data Collection](10_DataCollection.md)
 - [ADR-11: Data Serving](11_DataServing.md)

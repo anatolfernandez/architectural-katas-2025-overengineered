@@ -33,6 +33,9 @@ Current proposition:
 ## Consequences
 
 ### Positive
+- concentrating development effort on business critical services
+- enabled switching between different third-party service providers
 
 ### Negative
-
+- less control over parts of the system
+- need to keep interfaces up-to-date with vendors
