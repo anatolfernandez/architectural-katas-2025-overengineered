@@ -3,10 +3,10 @@
 
 
 ## Team
-- [Ajmal, Zohair](https://www.linkedin.com/in/zohairajmal/)
-- [Demirel, Burcu](https://www.linkedin.com/in/burcu-demirel/)
-- [Fernandez, Anatol](https://www.linkedin.com/in/anatol-fernandez/)
 - [Syndikus, Max](https://www.linkedin.com/in/max-syndikus-58913a114/)
+- [Ajmal, Zohair](https://www.linkedin.com/in/zohairajmal/)
+- [Fernandez, Anatol](https://www.linkedin.com/in/anatol-fernandez/)
+- [Demirel, Burcu](https://www.linkedin.com/in/burcu-demirel/)
 
 ## Business Model
 We are building a solution for a mobility company that owns a fleet of cars, vans, scooters, and bicycles. All vehicles already have premanufactured and provisioned hardware. This business struggles with vehicle availability. Therefore, the goal of this application is to improve on already existing physical assets, while at the same time dealing with the main issues: provide a trustworthy and stable software for customers to reliably find the best fitting transportation options.
