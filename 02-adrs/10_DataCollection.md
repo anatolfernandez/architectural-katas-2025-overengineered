@@ -1,7 +1,7 @@
 # ADR - Data Collection
 
 ## Status
-Proposed
+Accepted
 
 ## Context
 Microservice architecture defines bounded contexts within single components. It is also a transactional scope that can be easily fulfilled without having to implement a distributed transaction. Our microservices will be enhanced by AI and ML models. However, in order to produce and evolve these models, we will need to have agile access to all available data sources, simplify read data access, allow analytical layer for fast model prototyping and evaluation. 
