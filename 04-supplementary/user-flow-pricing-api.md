@@ -65,6 +65,8 @@ The AI Inference API offers a web endpoint to provide a risk score for the custo
   - Returns risk multiplier: 0.8x (safe) to 1.5x (risky)
   - Cache result in CRAI cache (TTL: 24 hours)
 
+[Background Flow 2: Risk Assessment Updates](./revenue-generation-ai/background_flow_risk_assesment.MD)
+
 ##### 3c. **Demand prediction** (T+60ms parallel)
 We have a model that predicts excess demand per parking bay, i.e. the difference between the predicted demand vs current vehicle coverage ("demand surge grid").
 This step assumes that the customer has entered a destination parking bay for which the model can predict whether we should adjust the price up or down. This way
@@ -85,6 +87,8 @@ Pricing API → AI Inference API → Demand Prediction AI
   - Historical demand patterns
 - Output: predicted demand level (low/medium/high)
 - Adds a price adjustment of -20% to 20% based on predicted demand
+
+[Background Flow 3: Smart Notifications](./revenue-generation-ai/background_flow_smart_notifications.MD)
 
 #### 4. **Price Aggregation** (T+100ms)
 ```

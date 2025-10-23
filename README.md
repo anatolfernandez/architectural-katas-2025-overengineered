@@ -68,6 +68,10 @@ You can find deep-dive documentations for the container level diagrams here:
 
 You can find a detailed component level and sequence flow deep dive here:
 
-- [Supplementary deep-dive on Booking and Pricing API](./04-supplementary/user-flow-pricing-api.md)
+- [Deep-dive on Booking and Pricing API](./04-supplementary/user-flow-pricing-api.md)
+- Background flows of Booking and Pricing
+    - [Background Flow 1: Event Detection & Surge Pricing](./04-supplementary/revenue-generation-ai/background_flow_event_detection.MD)
+    - [Background Flow 2: Risk Assessment Updates](./04-supplementary/revenue-generation-ai/background_flow_risk_assesment.MD)
+    - [Background Flow 3: Smart Notifications](./04-supplementary/revenue-generation-ai/background_flow_smart_notifications.MD)
 - [C3 Booking and Pricing API](03-component-level-docu/booking-pricing-component-design/component-architecture.md)
 - [C3 Trips API](./03-component-level-docu/trips-service-design/component-architecture.md)
